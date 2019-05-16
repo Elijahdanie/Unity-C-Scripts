@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
-namespace ThirdDimensionEcosystem {
+
 public class NotificationManager : MonoBehaviour {
 
 	public static bool leaveNotificationON;
@@ -96,5 +96,4 @@ public class NotificationManager : MonoBehaviour {
 
 			NotificationEditor [PanelToDisplay].text = txttodisplay;
 	}
-}
 }
